@@ -54,14 +54,13 @@
 </div>
 </template>
 <script>
-import firebase from 'firebase/app'
 import db from '../firestore'
 import Swal from 'sweetalert2'
 
 
 export default {
     components:{
-         name: 'ListItem',
+        
          Swal,
         
     },
